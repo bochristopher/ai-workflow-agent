@@ -65,7 +65,7 @@ MIT License
 
 ---
 
-## 🛠 Troubleshooting & Debugging (What I Learned the Hard Way 😤)
+## 🛠 Troubleshooting & Debugging
 
 ### 🔒 1. “Request had insufficient authentication scopes”
 ✅ Make sure you include **all of these scopes** when creating your service account credentials:
