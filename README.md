@@ -20,9 +20,27 @@ This project is part of a hands-on workshop that walks you through building an A
 ---
 
 ## 🛠 Tools & Setup
-Install required packages:
+
+### Create and Activate a Virtual Environment
 ```bash
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+### Install Required Packages
+```bash
+pip install --upgrade pip
 pip install openai google-api-python-client google-auth-httplib2 google-auth-oauthlib
+```
+
+### Save Environment (Optional)
+```bash
+pip freeze > requirements.txt
+```
+
+### Later, to Reinstall from Requirements:
+```bash
+pip install -r requirements.txt
 ```
 
 Set up:
