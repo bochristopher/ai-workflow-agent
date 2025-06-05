@@ -33,12 +33,7 @@ pip install --upgrade pip
 pip install openai google-api-python-client google-auth-httplib2 google-auth-oauthlib
 ```
 
-### Save Environment (Optional)
-```bash
-pip freeze > requirements.txt
-```
-
-### Later, to Reinstall from Requirements:
+### Install Requirements:
 ```bash
 pip install -r requirements.txt
 ```
